@@ -1,0 +1,139 @@
+<div class="col-xl-12 col-lg-12 col-md-12 nopad bag" >
+    <div class="bigimg"></div>
+    <div class="smallimg"></div>
+    <!-- header starts -->
+    <div class="stick " onscroll="onWindowScroll($event)" >
+        <div class="leftalign logo"></div>
+        <div class="rightalign bt" role="button">Get Started</div>
+        <div class="rightalign btt" role="button">Login</div>
+        <div class="rightalign bt1 " role="button">Pricing</div>
+        <div class="rightalign bt2" role="button">Solutions</div>
+        <div class="rightalign bt3" role="button">Products</div>
+    </div>
+    <!-- header ends -->
+    <div class="txt leftalign">We make it Super<br>Simple<br>
+        <i class="rec"></i>
+    </div>
+    <div class="frontimg"></div>
+
+    <!-- side toolbar start-->
+    <div class="tb">
+        <!-- first front box -->
+        <div class="tb1">
+            <h1 class="hj">Eligibility Calculator</h1>
+            <!-- inner content 1st -->
+            <div class="col-xl-12 col-md-12 col-lg-12 pad">
+                <!-- first box -->
+                <div class="aq">
+                    <label class="rr">Monthly Income</label>
+                    <div class=" rrr">र {{gridsize.value}}</div>
+                    <div>
+                        <mat-slider #gridsize  (change)="pdd($event)" step="1" min="100000" max="300000"></mat-slider>
+                        <mat-label class="leftalign nopadd">र 1,00,000</mat-label>
+                        <mat-label class="rightalign nopadd">र 3,00,000</mat-label>
+                    </div>
+                </div>
+                <!-- first box ends -->
+                <!-- 2nd box -->
+                <div class="aqq">
+                    <label class="rr">Monthly Exspences</label>
+                    <div class=" rrr">र {{gridsize1.value}}</div>
+                    <div class="ww">
+                        <mat-slider #gridsize1 (change)="pdd1($event)" step="1" min="0" max="300000"></mat-slider>
+                    </div>
+                </div>
+                <!-- 2nd box ends -->
+                <!-- 3rx box -->
+                <div class="aqq">
+                    <div>
+                        <mat-form-field>
+                            <mat-label>Repayment Tenure</mat-label>
+                            <mat-select >
+                                <mat-option value="option1">6 Months</mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                    </div>
+                </div>
+                <!-- 3rd box ends -->
+                <!-- 4th box -->
+                <div class="fd aq">
+                    <span>
+                        Do you have any existing loans?
+                        <mat-slide-toggle class="rightalign"></mat-slide-toggle>
+                    </span>
+
+                </div>
+                <!-- 4th box ends-->
+                <!-- 5th box  -->
+                <div class="aqq ">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>EMI of existing loan [optional]</mat-label>
+                        <input matInput placeholder=15,000 value=15,000>
+                    </mat-form-field>
+
+                    <!-- 5th box ends -->
+                </div>
+            </div>
+        
+            <!-- first front big box ends -->
+            <!-- 2nd front box-->
+            <div class="tb2">
+                <div class="mn ">
+                    <div class="leftalign col-xl-12 col-lg-12 col-md-12 poi">
+                        <span class="fg"> Loan Amount</span> <br><span class="kl">र 1,00,000</span>
+                    </div>
+                    <br>
+                    <div class="leftalign col-xl-12 col-lg-12 col-md-12 poi">
+                        <span class="fg"> Your EMI will be</span> <br><span class="kl">र 15,000</span>
+                    </div>
+                    <br>
+                    <div class="rt leftalign col-xl-12 col-lg-12 col-md-12" role="button">Get Money</div>
+                </div>
+            </div>
+            <!-- 2nd side toolbar ends -->
+            <div class="dot"></div>
+        </div>
+        </div>
+        
+        <div class="dot1"></div>
+        <!-- bottom page starts -->
+        <div class=" col-xl-12 col-lg-12 dfg">
+            <div class="btmimg"></div>
+            <div class="swleft1 vb">
+                <div class="col-lg-12 col-xl-12 col-md-12 gemsleft1 leftalign "></div>
+                <h2 class="col-lg-12 col-xl-12 col-md-12  leftalign bl pt">Quick cash disbursement</h2>
+                <p class="col-lg-12 col-xl-12 col-md-12  leftalign hh bl">Get terms loans that your business needs
+                    <br> within 72hrs</p>
+            </div>
+            <div class="swright1 vb">
+                <div class="col-lg-12 col-xl-12 col-md-12 gemsright1 leftalign "></div>
+                <h2 class="col-lg-12 col-xl-12 col-md-12  leftalign bl pt">Ace your business finances</h2>
+                <p class="col-lg-12 col-xl-12 col-md-12  leftalign hh bl">Manage banking, accounting & everything<br>
+                    in between, on one platform</p>
+            </div>
+            <div class="swleft2 vb">
+                <div class="col-lg-12 col-xl-12 col-md-12 gemsleft2 leftalign "></div>
+                <h2 class="col-lg-12 col-xl-12 col-md-12  leftalign bl pt">Low-interest rate</h2>
+                <p class="col-lg-12 col-xl-12 col-md-12  leftalign hh bl">Achieve your financial goals with an<br>
+                     amazing interest rate starting at 13% per<br> annum</p>
+            </div>
+            <div class="swleft3 vb">
+                <div class="col-lg-12 col-xl-12 col-md-12 gemsleft3 leftalign "></div>
+                <h2 class="col-lg-12 col-xl-12 col-md-12 ex leftalign bl pt">Zero Paperwork</h2>
+                <p class="col-lg-12 col-xl-12 col-md-12 ex leftalign hh bl">Get started instantly by submitting only<br>
+                     your basic details & bank statements</p>
+            </div>
+            <div class="swright2 vb">
+                <div class="col-lg-12 col-xl-12 col-md-12 gemsright2 leftalign "></div>
+                <h2 class="col-lg-12 col-xl-12 col-md-12  leftalign bl pt">Loans to fight COVID-19</h2>
+                <p class="col-lg-12 col-xl-12 col-md-12  leftalign hh bl">Zero EMI for first 3 months on Back-to-Business<br> loans of upto 1 lakh</p>
+            </div>
+        </div>
+        <h1 class=" rd">Boost your business<br>with Open</h1>
+         <div class="rd1"></div>     
+        <p class="rd2">Get your hands on a term loan that’s <br>crafted for your business</p>
+        <div class="rd3">Get an Open Account</div>
+        <!-- bottom page ends --> 
+
+        </div>
+        
